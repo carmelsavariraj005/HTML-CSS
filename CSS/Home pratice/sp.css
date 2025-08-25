@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(119, 100, 78);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100hv;
+    gap: 10px;
+    flex-direction:column-reverse;
+}
+
+.sp{
+    background-color: aquamarine;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+}

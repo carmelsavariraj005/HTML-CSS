@@ -1,0 +1,147 @@
+body{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+.hole{
+    display: flex;
+    border: 0%;
+    
+}
+
+.subject{
+    border: 1px solid black;
+    position: fixed;
+
+}
+
+.subject a{
+    background-color: white;
+    color: black;
+    display: grid;
+    justify-content: center;
+    width: 200px;
+    height: 160px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+
+.concent{
+   display: flex;
+   width: 87%;
+   margin-left:188px ;
+   background-color: grey;
+   color: white;
+}
+
+.concent h1{
+    width: 500px;
+    width: 250px;
+    margin-left: 50px;
+    display: flex;
+    align-items:flex-start;
+}
+
+.concent p{
+    display: flex;
+    align-items:center;
+    text-align:start;
+    width: 500px;
+    position: relative;
+    right: 250px;
+}
+
+.concent img{
+    width: 300px;
+    height: 302px;
+    border-radius: 900px;   
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    padding-right: 30px;
+    }
+
+    .aboutme{
+      margin-left: 200px;
+      width: 1120px;
+      border: 1px solid black;
+      background-color: black;
+      color: grey;
+      padding: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      font-weight: bold;
+    }
+    
+    .project{
+       height: 450px;
+       margin-top: 10px;
+       margin-left: 240px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .project a{
+       background-color: red;
+       color: white;
+       text-decoration: none;
+       padding: 10px;
+       border-radius: 20px;
+    }
+
+    .one{
+        border: 1px solid black ;
+        padding: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    
+
+    .two{
+        border: 1px solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .three{
+        border: 1px solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .concent{
+        width: 1190px;
+        
+    }
+
+    .information{
+        background-color: grey;
+        color: black;
+        height: auto;
+        padding-top: 20px;
+        margin-left: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+    .information p{
+      margin-left: 220px;
+    }
+
+    .information a{
+         text-decoration: none;
+         color: black;
+         position: relative;
+         right: 10px;
+    }

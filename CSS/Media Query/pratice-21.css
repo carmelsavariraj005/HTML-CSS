@@ -1,0 +1,23 @@
+.jp{
+    background-color: aqua;
+    color: black;
+    width: 300px;
+    padding: 50px;
+    border: 20px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.sp{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width :768px) {
+    
+    .jp{
+        display: none;
+    }
+}

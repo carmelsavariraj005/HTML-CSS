@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <main>
+        <div>
+            <center>
+                <form action="cheque.webp"></form>
+                <img src="../sp/indian bank.png" width="200" alt="">
+            <h1 style="border: 3em; color: rgb(82, 66, 223);">CHEQUE BOOK/CARD REQUISITION FORM</h1>
+            </center>
+            <form action="login.html" method="get" autocomplete="on" >
+        
+            <fieldset>
+                <br><br>
+                <legend ><b>Choose is your Bank branch details</b></legend>
+                <input type="checkbox" name="bank">Indian bank
+                <input type="checkbox" name="place"> Perugulathur
+                <input type="checkbox" name="district"> T V Malai
+
+                <label>Select City</label>&#10240;&#10240;
+                
+                
+
+                <select name="newcat" id="" class="" required>
+                <option value="" selected disabled>--Choose your bank City--</option>
+                <optgroup label="tamilnadu">
+                <option value="chennai">Chennai</option>
+                <option value="madurai">T V Malai</option>
+                <option value="trichy">Trichy</option>
+                </optgroup>
+                <optgroup label="kerala">
+                <option value="kolikodu">kolikodu</option>
+                <option value="munar">munar</option>
+                <option value="kochi">kochi</option>
+                </optgroup>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label >CHOOSE ANY ONE</label>: 
+            <select name="cat" id="" class="" required>
+                <option value="" selected disabled>select any one</option>
+                <option value="1" >Debit card</option>
+                <option value="Creditcard"  disabled>Creditcard</option>
+                <option value="cheque">CHEQUE BOOK</option>
+                <option value="newpass">New passbook</option>
+                <option value="node">...</option>
+            </select>&#10240;&#10240;
+            <input type="submit">
+            </fieldset>
+
+
+        </form>
+            <br>
+            <br>
+            <form action="../sp/cheque.webp">
+            <label for="Todaydate">Today date</label>
+            <input type="date" required/>
+            <br><br>
+            <label for="Priocity Banking">Priocity Banking</label>
+            <input type="checkbox"/>
+            <br><br>
+            <label for="custmer name">custmer Name</label>
+            <input type="text" placeholder="Custmer Name" required/>
+            <br><br>
+            <label for="custmer a/c Number">Custmer a/c Number</label>
+            <input type="number" placeholder="Custmer account Number" required/>
+            <br><br>
+            <label for="mobile number">Mobile Number</label>
+            <input type="number" placeholder="Mobile Number" required/>
+            <br><br>
+            <p>Kindly issue me with a</p>
+            <label for="cheque book">Cheque book</label>
+            <input type="radio" name="Cheque book"/>
+            <label for="debitcard">Debit card</label>
+            <input type="radio" name="Credit card"/>
+            <label for="Credit">Credit card</label>
+            <input type="radio" name="Credit card"/> 
+            <br/><br/>
+            <label for="signature">Custmer signature</label>
+            <input type="signature" placeholder="Custmer signature" required/>
+            <br><br>
+            <label for="contactdetailsupdate">Contact detail / Address details</label>
+            <input type="text" placeholder="details / Address details" required/>
+            <br><br>
+            <label for="signature">Custmer signature</label>
+            <input type="text" placeholder="Custmer signature" required/>
+            <br><br>
+            <label for="signature">Custmer details</label>
+            <input type="text" placeholder="Custmer details" required/>
+            <br><br>
+            <p ><h1 style="border: 3em; color: rgb(8, 126, 27);">Custmer documents details;</h1></p>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" required/>
+            <br><br>
+            <label for="fathername">Father Name</label>
+            <input type="text" placeholder="Father Name" required/>
+            <br><br>
+            <label for="address">Address</label>
+            <input type="text" placeholder="Address" required/>
+            <br><br>
+            <label for="adharcardcopy">Adhar card</label>
+            <input type="radio" name="Adhar card" />
+            <label for="pancard">Pan card</label>
+            <input type="radio" name="pan card"/>
+            <label for="idcard">Id card</label>
+            <input type="radio" name="Id card"/>
+            <br/><br/>
+            <p><h1 style="border: 3em; color: green;">For Bank Use Only;</h1></p>
+            <label for="custmerid">Custmer id verified</label>
+            <input type="radio" name="Custmer id verified"/>
+            <label for="yes">yes</label>
+            <input type="radio" name="Yes"/>
+            <label for="No">No</label>
+            <input type="radio" name="no"/>
+            <label for="branch">Branch</label>
+            <input type="text" name="Branch" required />
+            <label for="name">Name&Signature</label>
+            <input type="text" name="Name&Signature" required /><br><br>
+            <label for="Authorised by">Authorised by</label>
+            <input type="text" name="Authorised by" required /><br><br>
+            <input type="submit" name="submit" value="Register"/>
+            <input type="reset" name="reset" value="Reset"/>
+            
+        </div>
+    </main>
+    </body>
+</html>

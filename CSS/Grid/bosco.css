@@ -1,0 +1,27 @@
+.full {
+    background-color: rgb(211, 31, 46);
+    margin: 20px;
+    padding: 30px;
+    background-image: ;
+
+}
+.prathap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    column-gap: 20px;
+}
+.items{
+    background-color: rgb(21, 70, 63);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.items img{
+    background-color: rgb(233, 223, 223);
+    border-radius: 30px;
+}

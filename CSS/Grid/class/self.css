@@ -1,0 +1,84 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(176, 211, 152);
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+.sp{
+ position: fixed;
+ left: 0;
+ top: 0;
+ bottom: 0%;
+ background: rgb(11, 61, 117);
+ width: 250px;
+ color: rgb(236, 224, 224);
+ overflow: auto;
+ 
+}
+
+.sp h2{
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.sweety h2:hover{
+    color: rgb(17, 19, 16);
+    background-color: rgb(160, 20, 141);
+    
+}
+
+.sp a{
+     display: block;
+     color: white;
+     text-decoration: none;
+     padding: 20px;
+     
+
+}
+
+.sp a:hover{
+    background-color: rgb(184, 33, 103);
+    color: rgb(2, 2, 43);
+
+}
+.sweety{
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 0px;
+    background-color: rgb(243, 106, 43);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-left: 250px;
+    
+}
+
+
+.sweety button{
+    justify-content:center;
+    align-items: center;
+    width: 90px;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(17, 128, 192);
+    overflow-y: 0;
+}
+
+
+
+
+
+

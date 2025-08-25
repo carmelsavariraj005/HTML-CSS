@@ -1,0 +1,51 @@
+.sp{
+    background-color: rgb(207, 13, 13); 
+    width: 15%;
+    display: inline;
+    color: white;
+    padding: 2px;
+    margin-right: 20px;
+}
+.fuasty{
+    background-color: blue;
+    width: 15%;
+    display: inline;
+    color: white;
+    padding: 2px;
+    margin-right: 20px;
+
+}
+span{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 50px;
+}
+.linny a{
+    display: inline-block;
+    width: 200px; 
+    height: 50px;
+    background-color: rgb(80, 193, 221); ;
+    color: rgb(122, 5, 5);
+    padding: 50px;
+}
+.menu li {
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
+  background: #ccc;
+  height: 400px;
+  width: 200px;
+}
+.pr img {
+    display: inline-block;
+    width: 200PX;
+    vertical-align: middle;
+    
+}
+.pr p{
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+
+
+}

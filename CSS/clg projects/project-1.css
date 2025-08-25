@@ -1,0 +1,112 @@
+body {
+    background-color: #e9e6f0;
+    margin: 0;
+    
+}
+.num{
+    background-color: rgb(145, 80, 131);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    color: rgb(9, 9, 14);
+    font-weight: bolder;
+    border-radius: 18px;
+    padding: 40px;
+
+}
+
+.car {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmw {
+     background-color:rgb(247, 247, 247) ;
+    color: rgb(0, 0, 0);
+    width: 360px;
+    padding: 30px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius:8px ; 
+
+
+}
+
+.sp {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+}
+
+.foot{
+    background-color: rgb(24, 82, 90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+
+
+}
+
+.link {
+    background-color: rgb(17, 63, 90);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top:0px;
+}
+.link a{
+    color: white;
+    text-decoration:none;
+}
+
+.pr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    display: flex;
+}
+
+.don {
+    background-color: rgb(65, 117, 239);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    color: rgb(39, 3, 3);
+    font-weight: bolder;
+    
+}
+ .jp a{
+    color: white;
+    text-decoration:none;
+    padding: 30px;
+}
+
+.buy{
+    padding: 1px;
+    background-color: blue;
+    color: white;
+   width: 80px;
+    text-decoration: none;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+<main>
+    <div>
+        <form action="login.html" autocomplete="on">
+            <label for="fullname">Full Name</label>
+            <input type="text" placeholder="Enter the full name" maxlength="50" minlength="10"  required  />
+            <br/><br/>
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="example@gmail.com"  required  />
+            <br/><br/>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="At least 8 characters" minlength="8" maxlength="20"  required  />
+            <small>(Must contain 1 Uppercase, 1 lowsercase, numbers&text)</small>
+            <br/><br/>
+           
+       
+
+            <label for="age">Age</label>
+            <input type="number" placeholder="example 50" min="18" max="65"  required />
+            
+            <br/><br/>
+           <label for="dob">DoB</label>
+            <input type="date"  required  />
+            
+            <br/><br/>
+
+            <label for="phone">Phone</label>
+            <input type="tel" placeholder="866735626"   required  />
+            
+            <br/><br/>
+
+            <label for="url">Linked link</label>
+            <input type="url" placeholder="https://meet.google.com/wbb-uqwd-cbf"   required  />
+            
+            <br/><br/>
+
+            <label for="file">Upload Your Resume</label>
+            <input type="file"    required  />
+            
+            <br/><br/>
+
+              <label for="color">Choose Your Fet color</label>
+            <input type="color"      />
+            
+            <br/><br/>
+            
+
+            <label for="expreance">Expreance (20)</label>
+            <input type="range" min="0" max="20" />
+            
+            <br/><br/>
+
+
+           
+         
+            <p>Choose your Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender"  />
+            <label for="female">Female</label>
+            <input type="radio" name="gender">
+            <br/><br/>
+
+            <p>Choose your skills</p>
+            <label for="html">Html</label>
+            <input type="checkbox" name="skill"  />
+
+            <label for="css">Css</label>
+            <input type="checkbox" name="skill">
+
+             <label for="js">Js</label>
+            <input type="checkbox" name="skill">
+            <br/><br/>
+            <p>Rating</p>
+            <img src="img/1.webp" alt="" width="210">
+            <br/>
+        <input type="submit" name="submit" value="Register" />
+        <input type="reset" name="reset" value="Reset" />
+
+
+        </form>
+    </div>
+</main> 
+</body>
+</html>

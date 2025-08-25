@@ -1,0 +1,36 @@
+.fuasty {
+  background-color: rgb(15, 15, 17);
+  width: auto;
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+.pr img{
+     width: 500px;
+     height: 300px;
+     border-radius: 30px;
+}
+.linny a{
+    color: red;
+    text-decoration: none;
+    width: 50px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.sp a{
+     color: blueviolet;
+     text-decoration: double;
+     width: 50px;
+     background-color: rgb(236, 227, 227);
+     padding:10px;
+     font-size: 20px;
+     margin-top: 20px;
+     border-radius: 30px;
+}

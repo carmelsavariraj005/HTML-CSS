@@ -1,0 +1,31 @@
+/* Navbar container */
+nav {
+  background: black;
+  padding: 10px 20px;
+  overflow: hidden; /* clearfix for float */
+}
+
+/* Logo style */
+.logo {
+  float: left; /* logo left */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Links container */
+.nav-links {
+  float: right; /* links right */
+}
+
+/* Each link */
+.nav-links a {
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  background: gray;
+}

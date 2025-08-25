@@ -1,0 +1,26 @@
+.headparent{
+    background-color: rgba(0, 0, 0, 0.679);
+    width:auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    color: white;
+}
+.image img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.second a{
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    width: 50px;
+    background-color:white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+

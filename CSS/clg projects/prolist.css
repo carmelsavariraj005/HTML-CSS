@@ -1,0 +1,26 @@
+
+.head h1{
+    color: red;
+    width: 500px;
+    margin-left: 90px ;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+ .list ul h2 a{
+
+    color: black;
+    text-decoration: none;
+    margin-left: 650px;
+    
+ }
+.list a:hover{
+       background-color: white;
+       padding: 30px;
+       border-radius: 200px;
+}
+
+.login{
+    margin-left: 600px;
+}
+
