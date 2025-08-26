@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet Ads Webpage</title>
+  <style>
+  
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+
+    nav {
+      background: #1e293b;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav h1 {
+      font-size: 22px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #38bdf8;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+      min-height: 100vh;
+    }
+
+  
+    .box {
+      background: #f9fafb;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+
+    #profile {
+      background: #e0f2fe;
+    }
+
+  
+    #card {
+      background: #fef9c3;
+    }
+
+    /* Main Section with animated background */
+    #main {
+      position: relative;
+      overflow: hidden;
+      color: white;
+      text-align: center;
+    }
+    #main::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(135deg, #4ade80, #38bdf8, #f472b6, #facc15, #f43f5e);
+      background-size: 300% 300%;
+      animation: scrollBG 12s linear infinite;
+      z-index: 0;
+    }
+    @keyframes scrollBG {
+      0% { transform: translate(0,0); }
+      50% { transform: translate(-25%, -25%); }
+      100% { transform: translate(0,0); }
+    }
+    #main .content {
+      position: relative;
+      z-index: 1;
+      padding: 40px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>🌍 Planet Ads</h1>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#card">Card</a></li>
+      <li><a href="#main">Main Section</a></li>
+    </ul>
+  </nav>
+
+  <!-- Grid Layout -->
+  <div class="grid-container">
+    <!-- Profile -->
+    <div class="box" id="profile">
+      <h2>👨 Profile</h2>
+      <p><b>Name:</b> Prathap</p>
+      <p><b>Role:</b> Web Developer</p>
+      <p><b>Planet Ads Explorer</b></p>
+    </div>
+
+    <!-- Card -->
+    <div class="box" id="card">
+      <h2>🪐 Planet Card</h2>
+      <p><b>Planet:</b> Jupiter</p>
+      <p>Jupiter is the largest planet in our Solar System. Known for its massive size and Great Red Spot storm.</p>
+    </div>
+
+    <!-- Main Section -->
+    <div class="box" id="main">
+      <div class="content">
+        🚀 Welcome to Planet Explorer <br>
+        Discover planets with amazing facts! <br>
+        Animated Background Effect 🌌
+      </div>
+    </div>
+  </div>
+</body>
+</html>

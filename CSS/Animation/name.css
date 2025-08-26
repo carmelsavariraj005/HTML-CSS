@@ -1,70 +1,8 @@
-body{
-    background-color: black;
-}
 
-p{
-    text-shadow: brown;
-}
-
-.head{
-    color: rgb(124, 173, 173);
-    font-size: 30px;
-    text-transform: uppercase;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.animation{
-    height: 50px;
-    overflow: hidden;
-    margin-left: 16px;
-
-}
-
-.animation {
-    padding: 4px 12p;
-    height: 40px;
-    margin-bottom: 40px;
-    display: inline-block;
-}
-
-.animation :first :first-child{
-     animation: text-animation 8s infinite;
-}
-
-.first {
-    background-color: brown;
-}
-.second {
-    background-color: yellow;
-}
-
-.third {
-    background-color: rgb(173, 17, 114);
-}
-.four {
-    background-color: #ff4800;
-}
-
-@keyframes text-animation {
-    0% {
-        margin-top: 0;
-    }
-     20% {
-        margin-top: -60px;
-    }
-     40% {
-        margin-top: -100px;
-    }
-     60% {
-        margin-top: -160px;
-    }
-     80% {
-        margin-top: -280px;
-    }
-     100% {
-        margin-top: 0px;
-    }
+.cube {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: cubeRotate 8s infinite linear;
 }
